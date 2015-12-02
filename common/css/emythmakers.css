@@ -1,0 +1,182 @@
+body{
+    background-image: url(../../media/photoGallery/new_textures_9.jpg);
+    color: #333;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "Courier New";
+    font-size: 18px;
+}
+
+a{
+    color:#333333;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 980px;
+}
+
+
+/*=================================================================================*/
+/*========banner==========*/
+
+
+#banner .about a {
+    font-size: 15px;
+    display: inline-block;
+    margin:15px 0 15px 0;
+
+}
+
+/*=======main_content=========*/
+
+#main_content{
+    margin: 30px 0 0 0;
+}
+#main_content ul li a{
+    padding:5px 0;
+    display: inline-block;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    /*-ms-transition: 0.8s;*/
+    transition: 0.8s;
+}
+#main_content ul li a:hover{
+   padding-left: 20px;
+}
+
+#main_content .text-right a{
+    font-size: 15px;
+}
+#main_content .carousel{
+    margin-top:50px;
+}
+
+/*======footer=======*/
+
+
+#footer{
+    margin:70px 0 20px 0;
+}
+#footer .row .col-sm-6 p{
+    font-size: 12px;
+    padding:10px 0;
+}
+#footer .social_icon a{
+    background-color: #494949;
+    color: #fff;
+    display: inline-block;
+    height: 35px;
+    line-height: 40px;
+    text-align: center;
+    width: 35px;
+}
+#footer .social_icon a:hover{
+    background-color: #000;
+}
+
+
+
+/*==============================================about page================================================*/
+
+
+#about_content .main-content{
+    background-color:rgba(255,255,255,0.7);
+    padding: 15px;
+}
+#about_content .main-content h3{
+    font-size: 16px;
+    margin-bottom:10px;
+}
+#about_content .main-content p{
+    font-size: 15px;
+    margin-bottom:10px;
+}
+
+
+
+/*==================================================victimes================================================*/
+#victims .main_content{
+    background-color:rgba(255,255,255,0.7);
+    padding: 30px 30px 0;
+}
+#victims .main_content img{
+    margin-bottom: 30px;
+    width: 100%;
+}
+#victims .main_content .page-indicator{
+   padding-bottom: 20px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==============for responsive==============*/
+
+
+@media screen and (max-width: 767px) {
+    #footer{
+        margin:0;
+    }
+    #banner .banner {
+        height:100px;
+    }
+    #footer .row .col-sm-6 p{
+        text-align: center;
+    }
+    #footer .social_icon {
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
